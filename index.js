@@ -12,3 +12,7 @@ function destructivelyAppendKitten(){
 function destructivelyPrependKitten(){
   kittens = ["Bob", ...kittens]
 }
+
+function destructivelyRemoveLastKitten(){
+  kittens.shift()
+}
