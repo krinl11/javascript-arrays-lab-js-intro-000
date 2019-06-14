@@ -5,7 +5,10 @@ var kittens = [
 ] //define your array here
 
 // Add your functions and code here
-function destructivelyAppendKitten (){
+function destructivelyAppendKitten(){
   kittens = [...kittens, "Ralph"]
+}
 
+function destructivelyPrependKitten(){
+  kittens = ["Ralph", ...kittens]
 }
