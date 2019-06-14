@@ -10,5 +10,5 @@ function destructivelyAppendKitten(){
 }
 
 function destructivelyPrependKitten(){
-  kittens = ["Ralph", ...kittens]
+  kittens = ["Bob", ...kittens]
 }
